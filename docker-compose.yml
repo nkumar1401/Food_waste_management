@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: 'food_wastage_management_system'
       MYSQL_ROOT_PASSWORD: 'root'
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - db_data:/var/lib/mysql
 
