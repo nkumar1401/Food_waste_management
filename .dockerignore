@@ -1,0 +1,21 @@
+# Local virtual environments (Never copy these!)
+myenv/
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Local Data files (since we use SQL now)
+*.csv
+*.db
+
+# Git history and documentation
+.git
+.gitignore
+*.docx
+*.pptx
+*.pdf
+
+# Streamlit local state
+.streamlit/config.toml
+.streamlit/credentials.toml
